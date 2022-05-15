@@ -118,6 +118,7 @@
 		68F3A8A12539739A00BCD817 /* KJHomeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F3A8A02539739A00BCD817 /* KJHomeView.m */; };
 		68F3A8AA253973AF00BCD817 /* KJHomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 68F3A8A9253973AF00BCD817 /* KJHomeModel.m */; };
 		68FFFC78254FEAA300B2E9E3 /* UIBezierPath+KJPoints.m in Sources */ = {isa = PBXBuildFile; fileRef = 68FFFC76254FEAA300B2E9E3 /* UIBezierPath+KJPoints.m */; };
+		7892B08528314A69004C19CF /* UIImageView+KJLetters.m in Sources */ = {isa = PBXBuildFile; fileRef = 7892B08328314A69004C19CF /* UIImageView+KJLetters.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -357,6 +358,8 @@
 		68F3A8A9253973AF00BCD817 /* KJHomeModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KJHomeModel.m; sourceTree = "<group>"; };
 		68FFFC76254FEAA300B2E9E3 /* UIBezierPath+KJPoints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+KJPoints.m"; sourceTree = "<group>"; };
 		68FFFC77254FEAA300B2E9E3 /* UIBezierPath+KJPoints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+KJPoints.h"; sourceTree = "<group>"; };
+		7892B08328314A69004C19CF /* UIImageView+KJLetters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+KJLetters.m"; sourceTree = "<group>"; };
+		7892B08428314A69004C19CF /* UIImageView+KJLetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+KJLetters.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -592,6 +595,8 @@
 				68AD7280251D9BB8000C89C5 /* UIImage+KJCoreImage.h */,
 				68AD7285251D9BB8000C89C5 /* UIImage+KJCoreImage.m */,
 				68AD727F251D9BB8000C89C5 /* UIImage+KJFloodFill.h */,
+				7892B08428314A69004C19CF /* UIImageView+KJLetters.h */,
+				7892B08328314A69004C19CF /* UIImageView+KJLetters.m */,
 				68AD7287251D9BB8000C89C5 /* UIImage+KJFloodFill.m */,
 				68AD7278251D9BB8000C89C5 /* UIImage+KJMask.h */,
 				68AD7284251D9BB8000C89C5 /* UIImage+KJMask.m */,
@@ -1070,6 +1075,7 @@
 				68AD72FF251D9BB8000C89C5 /* UIColor+KJExtension2.m in Sources */,
 				68AD7301251D9BB8000C89C5 /* UIView+KJGradient.m in Sources */,
 				68AD7356251D9C75000C89C5 /* KJCollectionVC.m in Sources */,
+				7892B08528314A69004C19CF /* UIImageView+KJLetters.m in Sources */,
 				68F3A8702539401E00BCD817 /* NSString+KJPredicate.m in Sources */,
 				68AD735C251D9C75000C89C5 /* KJSliderVC.m in Sources */,
 				689B947C254A573200E97DEF /* NSObject+KJKVO.m in Sources */,
